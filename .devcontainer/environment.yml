@@ -1,0 +1,39 @@
+name: data_science_bball_homo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - ipykernel
+  - pytest
+  - black
+  - flake8
+  - mypy
+  - pip
+  - yt-dlp
+  - ffmpeg
+  - pillow
+  - tensorflow
+  - pip:
+      - roboflow
+      - moviepy
+      - pytube
+      # - inference-sdk
+      - ultralytics
+      - tf-keras
+      - sng4onnx>=1.0.1
+      - onnx_graphsurgeon>=0.3.26
+      - onnx2tf>1.17.5,<=1.22.3
+      - onnxslim>=0.1.31
+      - tflite_support
+      - onnxruntime
+      - supervision
+      - flickrapi
+      - cvzone
+      - opencv-python-headless
